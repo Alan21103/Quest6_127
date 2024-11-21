@@ -13,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
+import com.example.quest6_127.ui.model.Mahasiswa
 
 @Composable
 fun RencanaStudyView(
@@ -36,4 +37,7 @@ fun RencanaStudyView(
             .background(color = colorResource(id = R.color.primary))
             .padding(top = 40.dp ),
         horizontalAlignment = Alignment.CenterHorizontally
+    ){
+
+    }
 }
